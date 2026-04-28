@@ -119,4 +119,4 @@ export default function App() {
       <VoiceScreen onDemoSearch={() => setStage('results')} />
     </main>
   )
-        }
+       
