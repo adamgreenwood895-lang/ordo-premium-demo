@@ -14,7 +14,7 @@
 *{box-sizing:border-box}
 html,body,#root{height:100%;margin:0}
 body {
-  background-image: url('/src/assets/background.jpg');
+  background-image: url('/src/assets/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
