@@ -13,12 +13,14 @@
 
 *{box-sizing:border-box}
 html,body,#root{height:100%;margin:0}
-body{
-  background:
-    radial-gradient(circle at top, rgba(86,184,255,.14), transparent 30%),
-    radial-gradient(circle at bottom, rgba(124,109,255,.12), transparent 32%),
-    linear-gradient(180deg, #040611 0%, #050816 100%);
-  color:var(--text);
+body {
+  background-image: url('/src/assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--text);
+  height: 100vh;
 }
 
 .app{
